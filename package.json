@@ -1,0 +1,34 @@
+{
+  "name": "tsdecorators",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript utility library offering an assortment of powerful decorators.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdanmartinescu/TSDecorators.git"
+  },
+  "keywords": [
+    "typescript",
+    "decorators",
+    "utility",
+    "library"
+  ],
+  "author": "Liviu Martinescu<hi@mlb.ro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bogdanmartinescu/TSDecorators/issues"
+  },
+  "homepage": "https://github.com/bogdanmartinescu/TSDecorators#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
